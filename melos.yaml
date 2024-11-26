@@ -1,0 +1,21 @@
+name: projk
+# repository: https://github.com/invertase/melos
+
+sdkPath: .fvm/flutter_sdk
+
+packages:
+  - apps/**                # Includes both mobile and web apps
+  - packages/**            # Includes all shared packages
+
+scripts:
+  analyze:
+    exec: dart analyze .
+    
+# scripts:
+#   bootstrap:
+#     run: melos bootstrap
+#     description: "Installs dependencies for all apps and packages in the manorepo"
+
+#   test:
+#     run: melos exec -- flutter test
+#     description: "Runs tests across all packages and apps"

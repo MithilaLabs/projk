@@ -1,0 +1,3 @@
+[core]
+    sshCommand = ssh -i ~/.ssh/id_ed25519_manu4linux -F /dev/null
+
